@@ -21,6 +21,8 @@ app.listen(process.env.PORT ?? 3000, function (erro) {
   if (erro) {
     console.log('Erro ao iniciar o servidor.');
   } else {
-    console.log('Servidor da Biblioteca Online iniciado.');
+    console.log(
+      'Servidor da Biblioteca Online iniciado: http://localhost:3000/'
+    );
   }
 });
